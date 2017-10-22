@@ -1,0 +1,17 @@
+{
+    "name": "slimtest/bad4iz",
+    "authors": [
+        {
+            "name": "bad4iz",
+            "email": "bad4iz@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyClass\\": "myClass"
+        }
+    }
+}
