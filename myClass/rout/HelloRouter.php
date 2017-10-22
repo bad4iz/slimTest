@@ -18,6 +18,6 @@ class HelloRouter extends Router {
   function registerRouter() {
     $this->app->get('/hello/{name}', function ($request, $response, $args) {
       return $response->write("Hello " . $args['name']);
-    });
+    })->setName("ticket-detail");;
   }
 }
